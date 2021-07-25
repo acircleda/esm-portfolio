@@ -1,13 +1,8 @@
 # E. Presentation Experience {-}
 
-:::{custom-style="note"}
-***Note:** Listed in reverse chronological order.*
-:::
-
 ## List of Presentations at Professional Conferences {-}
 
 :::{custom-style="citation"}
-
 **Schmidt, A.**, Rocconi, L., & Boyd, A. (2021, August). From click to code: Insights from instructors and students on moving from SPSS to R in a graduate-level applied statistics course [Oral presentation]. 2021 Joint Statistical Meetings.
 
 

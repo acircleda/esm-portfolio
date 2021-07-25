@@ -18,18 +18,9 @@ output:
       left: .5
       header: 0.5
       footer: 0.5
-# output:
-#   word_document:
-#     reference_docx: "template.docx"
-#     toc: yes
-#     pandoc_args: [ "--csl", "apa.csl" ]
-#     fig_width: 11
-#     fig_height: 6
 documentclass: book
 bibliography: references.bib
-#book_filename: "Schmidt, Anthony - Portfolio"
-
-# bookdown::render_book("index.Rmd")
+# bookdown::render_book("index.Rmd") #create book
 ---
 
 <!-- Link to guidelines: https://docs.google.com/document/d/1PzmL8t5LKpMZlzU6N3kj_bZNCEwOEHk7/edit -->
@@ -285,6 +276,6 @@ The portfolio is divided into seven sections, each of which contains description
 
 Because my ESM experiences varied in length and often overlapped, I have organized them alphabetically for each section. In sections A to C, a timeline of my experiences is presented to indicate starting and ending times, lengths, and progress. While each experience has its own reflection, there are threads of connection within and across the different sections. These threads are often mentioned explicitly in the text.
 
-The portfolio itself should be seen as an exemplar of my ESM competencies. The portfolio is a product of reflexivity, a practice that is usually attributed to qualitative research. Reflexivity requires researchers to turn the lens of analysis back on themselves in order to establish awareness of their past experiences and values, and how these impact what they do. Reflexivity through written reflections is stressed throughout ESM courses and have been fundamental for creating this portfolio. A great debt is also owed to quantitative skills, as well. This portfolio was written and formatted completely in R, a statistical programming language. This allowed me to create a highly customized and consistent document using a language I have become quite proficient in, as documented in my reflections. 
+The portfolio itself should be seen as an exemplar of my ESM competencies. The portfolio is a product of reflexivity, a practice that is usually attributed to qualitative research. Reflexivity requires researchers to turn the lens of analysis back on themselves in order to establish awareness of their past experiences and values, and how these impact what they do. Reflexivity through written reflections is stressed throughout ESM courses and have been fundamental for creating this portfolio. A great debt is also owed to quantitative skills, as well. This portfolio was written and formatted completely in R, a statistical programming language. This allowed me to create a highly customized and consistent document using a language I have become quite proficient in, as documented in my reflections. Code for this portfolio can be found [here](https://github.com/acircleda/esm-portfolio).
 
 In sum, this portfolio was created through a synthesis of qualitative and quantitative skills, which nicely reflects the synthesis of these skills within the ESM program. Likewise, the experiences detailed in this portfolio should clearly demonstrate how my progress through the program has also involved the synthesis of these skills and many others. By the end of this portfolio, it should be clear that I have demonstrated competency in the field of ESM and that I am ready to advance to doctoral candidacy.
