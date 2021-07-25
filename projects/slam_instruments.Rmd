@@ -1,0 +1,12 @@
+
+```{r echo=FALSE, results='asis'}
+project("slam", 3)
+```
+
+I developed the SLAM as a final project for EDPY 581: Classroom Measurement. As an English language instructor for 10 years, I had a lot of prior experience developing classroom assessments of topics related to language learning (e.g. reading, listening, speaking, grammar, vocabulary). I decided to develop an assessment for a future context in which I could see myself if I pursue a tenure-track position post-PhD. That is, teaching a basic statistics course.
+
+While I had experience developing formative and summative assessments, I had never developed one in such a systematic way. This assessment’s development began with a deep dive into the background concepts of statistical reasoning, statistical literacy, and statistical citizenship. I discovered a number of definitions of statistical literacy as well as different ways to assess these skills. The final product represents an integration of different frameworks and terminology for understanding statistical literacy.
+
+The biggest challenge in developing this assessment was finding enough real-world media that could be mapped to different statistical topics. I was eventually able to find enough, though many articles were dated. This assessment is only valid on the premise that the instructor is giving students practice with media assessment in class. Therefore, the instructor would also need to procure articles on the same topic. This could have been difficult; however, there is likely a large source of recent material due to the COVID-19 pandemic and the subsequent articles with graphs, statistics, reports on medical trials, etc.
+
+Unfortunately, I have not had the chance to pilot this assessment in a real classroom setting. I look forward to sharing this with others or piloting it myself. Upon doing so, I would submit my experiences and the assessment itself as a manuscript to one of the many statistics pedagogy journals I discovered during my background research.

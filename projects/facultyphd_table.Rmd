@@ -1,0 +1,26 @@
+
+```{r echo=FALSE, results='asis'}
+project("facultyphd", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates", "2019 Fall - 2020 Summer",
+  "Status:", "Complete",
+ "Data Collection:", "Survey",
+  "Data Analyses", "Linear Regression, Logistic Regression",
+    "Brief Description", "The purpose of this survey was to understand faculty perceptions of the importance of conference experiences when considering hiring new tenure-track assistant professors, especially recently-graduated PhD job applicants",
+ "Reliability / Validity", "Cognitive interviews and pilot testing",
+ "Methodology:", "Survey questions are adapted from existing published literature"
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit")
+```
+
+
+\newline

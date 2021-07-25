@@ -1,0 +1,15 @@
+
+```{r echo=FALSE, results='asis'}
+project("engineering", 3)
+```
+
+This project was part of the Advanced Evaluation course I took in 2021 Spring. I worked in a group with three other ESM students. When our group initially met the client, a team of representatives from the Tickle College of Engineering, they came to us with a plethora of interesting questions they wanted answered, some of which were unrelated to the others. These questions involved assessing a new admittance policy, understanding retention of female engineering students, and understanding identity formation of new engineers, to name a few. Knowing that we only had part of a semester to complete a project for them, my team worked hard to help Engineering narrow their questions down to the single most important one they had. We did this through multiple client meetings.
+
+These client meetings were excellent learning opportunities for us. As the clients spoke and talked about all the things they wanted to learn, we listened and tried to connect the dots in their question marks to help understand what they were really trying to get answered. The meetings began with questions from all across the research and evaluation spectrum: quantitative, qualitative, needs assessment, process evaluation, and so forth. We helped the client think about how the questions related to their strategic priorities and settle on a key question to be answered. 
+
+This question involved their new admittance policy. As of 2021 Fall, they would be admitting their first test-optional cohort, and wanted to know how this group performed compared to previous cohorts that had been admitted based on SAT/ACT scores. As the 2021 Fall semester had not begun yet, we could not actually answer this question. Thus, we negotiated with the client to create an evaluation plan that they could follow and implement once the Fall semester was complete and they had enough data.
+
+The client-evaluator meetings were invaluable for practicing listening, question-asking, and communication skills in order to understand client needs and help determine a satisfactory evaluation approach. The approach itself was robust, detailed, and understandable (see section *B. Statistical Analysis Experiences*). Unfortunately, we recieved no feedback from Engineering on the plan, or if they would implement it. In fact, the first time we submitted it, we recieved no communication. I follow-up again in the summer and merely got a "Thanks" as a response. Given how much effort we put into the evaluation plan, this was a little disheartening.
+
+
+

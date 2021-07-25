@@ -1,0 +1,27 @@
+
+```{r echo=FALSE, results='asis'}
+project("slam", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates", "2019 Summer",
+  "Status:", "Complete",
+  "Data Collection:", "Computer Test",
+  "Data Analysis:", "Test Scoring",
+  "Brief Description", "The purpose of this assessment tool was to provide a summative measurement of undergraduate students’ ability to read and critically examine statistical messages in the news media.",
+  "Methodology", "This assessment was developed based on topics common to undergraduate introduction to statistics classes. Questions are mapped to student learning objectives based on a three-tier hierarchy of statistical literacy skills developed by Watson (1997) and outcomes specified by delMas (2002).",
+  "Reliability / Validity", "Item Analysis, Construct validity, Conclusion Validity
+As a summative assessment, the results of this test serve as a direct measure of students’ statistical literacy skills. Therefore, the use of SLAM to assign an assessment grade is deemed a valid use of the results so long as statistical literacy was part of course instruction."
+  
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit")
+```
+
+\newline

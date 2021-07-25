@@ -1,0 +1,16 @@
+## ---- test-a --------
+
+tribble(
+  ~col1, ~col2,
+  "Dates", "2019 Summer - present",
+  "Status:", "Ongoing",
+  "Data Analyses", "Text mining, descriptive statistics, thematic analysis",
+  "Brief Description", "For this project, I worked with Dr. Joshua Rosenberg (TPTE). We downloaded one years' worth of Tweets with the hashtag #TidyTuesday, which is used for weekly data visualization challenges using R. We analyzed participation, code contributions, and Tweet content. We have also developed a secondary project examining data visualization development over time."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")

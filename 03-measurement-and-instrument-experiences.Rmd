@@ -1,0 +1,148 @@
+# C. Measurement and Instrument Development Experiences {-}
+
+:::{custom-style="note"}
+***Note**: Listed in alphabetical order.*
+:::
+
+## Timeline of Measurement and Instrument Development Experiences {-}
+
+:::{custom-style="plot"}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+project_list %>%
+  filter(str_detect(cat, "M")) %>%
+  mutate(start = factor(start, levels=timeline),
+         end = factor(end, levels=timeline)) %>%
+  ggplot()+
+  geom_linerange(aes(y=fct_rev(shortname), xmin=start, xmax=end,
+                     color=shortname,
+                     linetype=status),
+                 size=1.5,
+                 key_glyph = "path")+
+  scale_color_manual(values=utkpal(project_list %>%
+                                     filter(str_detect(cat, 
+                                                       "M")) %>%
+                                     pull(id)),
+                     guide = "none")+
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 4),
+                   drop = FALSE,
+                   limits=timeline[-(1:4)])+
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 30))+
+  scale_linetype_manual(values=c("solid", "dotted"),
+                        name="Status")+
+  theme_classic()+
+    theme(legend.position = "top",
+          axis.title = element_blank(),
+          axis.text.x = element_text(size=8),
+          axis.text.y = element_text(size=9))+
+  guides(linetype = guide_legend(override.aes = list(size = 1)))
+```
+:::
+
+## List of Measurement Tools/Protocols {-}
+
+<!-- tidyr Project: done-->
+
+```{r echo=FALSE, results='asis'}
+project("tidy", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+\newline
+
+<!-- CSE Project -->
+
+```{r echo=FALSE, results='asis'}
+project("cse", 3)
+```
+See *A. Evaluation and Applied Research Experience*
+
+\newline
+
+
+<!-- faculty phd Project -->
+
+```{r child="projects/facultyphd_table.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- PhD Students Project -->
+
+```{r echo=FALSE, results='asis'}
+project("phdstudents", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+\newline
+
+<!-- slam Project -->
+
+```{r child="projects/slam_table.Rmd", eval=TRUE}
+```
+
+\newline
+
+<!-- SEW -->
+
+```{r echo=FALSE, results='asis'}
+project("sustainable", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+\newline
+
+
+## Description and Reflection of Experiences {-}
+
+<!-- tidy Project -->
+
+```{r child="projects/tidy_instruments.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- CSE Project -->
+
+```{r echo=FALSE, results='asis'}
+project("cse", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+<!-- faculty phd Project : done-->
+
+```{r child="projects/facultyphd_instruments.Rmd", eval=TRUE}
+```
+
+<!-- phdstudents Project -->
+
+```{r echo=FALSE, results='asis'}
+project("phdstudents", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+<!-- slam Project: done -->
+
+```{r echo=FALSE, results='asis'}
+project("slam", 3)
+```
+\newline
+
+<!-- SEW Project: done -->
+
+```{r child="projects/sew_instruments.Rmd", eval=TRUE}
+```
+\newline
+
+## Materials in Appendix C
+
+1.  [Survey Instrument: `r project_head("sustainable")`](https://drive.google.com/file/d/1ogXJLEvtxLhulF43UTEW-HG_W-9xyjuc/view?usp=sharing)
+2.  [Interview Protocol: `r project_head("dena")`](https://drive.google.com/file/d/1fLIQ0j286_w_BKXgR-72LWojv1_MpRnP/view?usp=sharing)
+3.  [Assessment: `r project_head("slam")`](https://drive.google.com/file/d/1dSqzienXFhghBZrkkUZzzlvctpFG0-E_/view?usp=sharing)
+

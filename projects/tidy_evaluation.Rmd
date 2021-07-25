@@ -1,0 +1,16 @@
+<!-- Tidy Project -->
+
+```{r echo=FALSE, results='asis'}
+project("tidy", 3)
+```
+
+I worked with Dr. Rosenberg (of TPTE) for this project. It evolved from a shared interest in R, Data Visualization, and Twitter. The first part of this project was to understand who participates in the Twitter #TidyTuesday hashtag. #TidyTuesday is a weekly Twitter challenge in which interesting data sets are posted and users are asked to develop data visualizations in R, in particular using the `ggplot2` package.
+ 
+Through this project, I believe I learned or improved upon three key areas. First, I was able to massively improve my R programming skills. In fact, this was one of my first major R coding projects. I learned how to mine Twitter using the `rtweet` package and how to analyze, at a lexical level, others' code using the `tidycode` package (which classifies code based on functions and allows a linguistic-like analysis of code).
+
+Second, I also learned how to work with others collaboratively using Github. This was also one of my first Github collaborations. This required not only learning a new platform and commands in a new programming language, but also how to work with others' code. I realized quite quickly that reading other people's code is not always as easy as reading one's own. For example, I saw instances of data objects beings named "d", "t", "s", and other non-descriptive names with few comments. I decided that in my own programming and code development, I would try to be as descriptive as possible in my naming conventions (even at the expense of short names of data objects and variables) and comment my code as much as possible, especially if I think others will read it.
+
+Finally, I learned how exploratory analyses can lead to larger projects. While this concept was familiar to me, this was my first time experiencing it for myself. The initial analyses we did prompted deeper questions, not only about participation and how participation may change one's coding skills but also the role participating in #TidyTuesday may play in learning data visualization. Thus, we decided to expand our research into looking at how data visualization skills may develop when participating in an online community of practice. This project is still ongoing and will be reflected on in *C. Measurement and Instrument Development Experiences*, as instrument development has been the primary focus of this project.
+
+
+

@@ -1,0 +1,23 @@
+
+```{r echo=FALSE, results='asis'}
+project("stats3", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates", "2019 Spring",
+  "Status:", "Complete",
+  "Data Analyses", "Descriptive statistics, multiple imputation, factor analysis, t-tests, logistic regression",
+  "Brief Description", "This was the culminating project of Applied Statistics III, in which we (the Statsketeers, a group of 4 students) were given a data set from a survey of student perceptions of a anonymized/fictitious university and had to completely clean, analyze, write-up, and present our findings."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

@@ -1,0 +1,10 @@
+
+```{r echo=FALSE, results='asis'}
+project("advising", 3)
+```
+
+I volunteered to assist in this project, processing and analyzing responses to the UTK undergraduate advising survey during the 2019 Summer semester. One of my roles was to develop syntax to process the raw data from Qualtrics and get it ready for overall analysis and analyses by college. Some of my syntax was based on Dr. Rocconi’s syntax used in the prior year, especially syntax that was related to validating check-all questions. In fact, I struggled to understand a lot of this specific syntax and it took me a while to figure out how it worked. There were numerous concat statements that really confused me and still, to this day, I don’t think I could rewrite it.
+
+However, I did learn to write a lot of other types of syntax, including macros and custom tables. It was through this work that I became much more proficient in SPSS coding. I feel that these skills were instrumental in me obtaining a new job in the Fall of 2019, one which was more directly aligned with ESM-related work (I now work with survey data), one which was not precarious (my previous job teaching international students English; however, our institute had a severe decline in students and thus funding), and one which was much higher paying.
+
+I also completed an a technical report for the College of Architecture and Design for this project. While the data sets were pre-cut for me, I still had to analyze the data and include it into the report. The report had to adhere to the design and organization of the reports for other colleges, which was an interesting challenge. Since I was not involved in the design of the document, I often felt frustrated by the formatting constraints or design elements. It was also hard to keep track of proper font types, font sizes, color schemes, line thicknesses, spacing etc. I used the previous and exemplar parts a lot to aid in this. Interestingly, this type of adherence to a style is now a main part of my work (the new job I spoke of previously). Therefore, I think this experience was another valuable factor in my new employment.

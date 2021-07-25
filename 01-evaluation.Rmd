@@ -1,0 +1,217 @@
+# A. Evaluation and Applied Research Experience {-}
+
+:::{custom-style="note"}
+***Note**: Listed in alphabetical order.*
+:::
+
+## Timeline of Applied Research and Evaluation Experiences {-}
+
+:::{custom-style="plot"}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+project_list %>%
+  filter(str_detect(cat, "E")) %>%
+  mutate(start = factor(start, levels=timeline),
+         end = factor(end, levels=timeline)) %>%
+  ggplot()+
+  geom_linerange(aes(y=fct_rev(shortname), xmin=start, xmax=end,
+                     color=shortname,
+                     linetype=status),
+                 size=1.5,
+                 key_glyph = "path")+
+  expand_limits(x=c(3,13))+
+scale_color_manual(values=utkpal(project_list %>%
+                                     filter(str_detect(cat, 
+                                                       "E")) %>%
+                                     pull(id)),
+                     guide = "none")+
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 4),
+                   drop = FALSE,
+                   limits=timeline[-(1:1)])+
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 30))+
+  scale_linetype_manual(values=c("solid", "dotted"),
+                        name="Status")+
+  theme_classic()+
+    theme(legend.position = "top",
+          axis.title = element_blank(),
+          axis.text.x = element_text(size=8),
+          axis.text.y = element_text(size=8))+
+  guides(linetype = guide_legend(override.aes = list(size = 1)))
+```
+:::
+
+
+## List of Evaluation and Applied Research Projects {-}
+
+
+<!-- Tidyr Project - done -->
+
+```{r, child="projects/tidy_table.Rmd", eval=TRUE}
+
+```
+
+<!-- Computer Science Education Project - done -->
+
+```{r, child="projects/cse_table.Rmd", eval=TRUE}
+
+```
+
+<!-- DENA Project : done -->
+
+```{r, child="projects/dena_table.Rmd", eval=TRUE}
+
+```
+
+<!-- Engineering Project  -->
+
+```{r, child="projects/eng_table.Rmd", eval=TRUE}
+
+```
+
+<!-- Fair Chance Project  -->
+
+```{r, child="projects/fairchance_table.Rmd", eval=TRUE}
+
+```
+
+<!-- STARS Project : done-->
+
+```{r, child="projects/stars_table.Rmd", eval=TRUE}
+
+```
+
+
+<!-- IEP Project : done-->
+
+```{r, child="projects/iep_table.Rmd", eval=TRUE}
+
+```
+
+
+<!-- gradrates Project: done-->
+
+```{r, child="projects/gradrates_table.Rmd", eval=TRUE}
+
+```
+
+
+<!-- PHD Students Project : done-->
+
+
+```{r, child="projects/phdstudents_table.Rmd", eval=TRUE}
+
+```
+
+
+<!-- SEW Project  : done-->
+
+```{r, child="projects/sew_table.Rmd", eval=TRUE}
+
+```
+
+<!-- Scope 3 Project : done-->
+
+```{r child="projects/scope3_table.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+## Description and Reflection of Experiences {-}
+
+<!-- Tidy Project - done -->
+
+```{r child="projects/tidy_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- CSE Project - done -->
+
+```{r child="projects/cse_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- DENA Project - done -->
+
+```{r child="projects/dena_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- Engineering Project  -->
+
+```{r, child="projects/eng_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- Fair Chance Project  done -->
+
+```{r, child="projects/fairchance_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- STARS 3 Project - done -->
+
+```{r child="projects/stars_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- IEP Project : done-->
+
+```{r, child="projects/iep_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- gradrates Project - done -->
+
+```{r child="projects/gradrates_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- PHD Students Project - done -->
+
+```{r child="projects/phdstudents_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- SEW 3 Project -->
+
+```{r child="projects/sew_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+
+<!-- scope 3 Project -->
+
+```{r child="projects/scope3_evaluation.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+## Materials in Appendix A
+
+1.  [Evaluation Proposal: `r project_head("cse")`](https://drive.google.com/file/d/1PY7MQI44gSy9dnfB0gKz4tuHCTp4ApxS/view?usp=sharing)
+2.  [Evaluation Proposal: `r project_head("fairchance")`](https://drive.google.com/file/d/1l0DQb3vqV87Gukmxta9M9tG37GfbkESf/view?usp=sharing)
+3.  [Research Proposal: `r project_head("phdstudents")`](https://drive.google.com/file/d/1NFmD_RAIHE0ndhtLfjGP8dnce94HBZCO/view?usp=sharing)
+
+

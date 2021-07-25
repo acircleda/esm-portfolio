@@ -1,0 +1,14 @@
+
+<!-- DENA Project -->
+
+```{r echo=FALSE, results='asis'}
+project("dena", 3)
+```
+
+Besides data collection via interviews, I made two major contributions to the final deliverable for this project: the write-up and visualizations. I wrote the majority of the final document. Admittedly, the first draft of this document was very rough. However, we were able to get excellent feedback from ESM faculty. As this was a qualitative project, the feedback from Dr. Leah Cain was especially useful. The revisions of this manuscript certainly helped me better understand the qualitative genre and its expectations. This actually helped me when writing my qualitative manuscript for the *University Air Travel* project. Specifically for the distance education needs analysis project, I was better able to describe our sampling methods and our sample itself. I was also better able to describe our qualitative analysis process, including theoretical approach and methods. These types of details are always important for helping build the credibility of one's work, so I was especially thankful to get more experience with this.
+
+Second, I contributed the visualizations for this project. Actually, visualizations were my first exposure to the results of this project, as I was not involved in data analysis. And to be honest, the initial visualizations provided to me by another team member were not very useful. The final results were broken into major themes for our two participant types (evaluation faculty, evaluation practitioners), each with its subthemes. The original visualizations submitted for this project were whole-page tree maps for *each* theme or subtheme in default Excel colors. This spanned about seven pages and were beyond useless. As someone reading these visualizations as our audience would (e.g. for the first time), I understood very little and could not make comparisons across the seven pages or gain any insights. 
+
+I accessed the original data in which the theme and subtheme counts were summarized and turned these into two small sets of bar charts. The first set presented the main themes found overall, and among each of the participant types. The second set presented the subthemes of the top three themes overall. Only the top theme or subtheme in each bar group were colored (Tennessee Orange, of course) and the rest were a neutral gray. No themes with *n* = 1 were included, as they were in the original visualizations. If only one document contained that idea, it is not a theme, is it? The two bar charts each took up a third of a page and allowed easy comparisons within the charts and allowed easy back and forth movement from visualization to text.
+
+One of the lessons reinforced here in terms of visualizations was that when in doubt, use a bar chart. They are easier to read, easy to use, and keep simple data simple.

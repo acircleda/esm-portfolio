@@ -1,0 +1,91 @@
+# F. Teaching or Supervisory Experience {-}
+
+## Teaching Experience {-}
+
+### Non-Program Related Teaching Experiences
+
+  * 2014-2019 - English Language Instructor, University of Tennessee, Knoxville
+  * 2012-2014 - English Language Instructor, Pukyong National University, South Korea
+  * 2007-2012 - English Language Instructor, Secondary Schools, South Korea
+
+### Program-Related Teaching Experiences
+
+  * 2021 Spring - EDPY 678 Statistics in Applied Fields III
+
+## Professional Workshops/Trainings {-}
+
+
+  * 2021 Spring - R Markdown (ESM Seminar)
+  * 2020 Fall - R Basics and Data Visualization (ESM Seminar)
+  * 2020 Spring - Tableau (ESM Seminar)
+  * 2019 Fall - Equivalence Testing (ESM Seminar)
+
+## Description and Reflection of Experiences {-}
+
+### Non-Program Related Teaching Experiences
+
+#### Teaching Experiences as an English Language Instructor
+
+I spent twelve years as an English language instructor, teaching English as a foreign/second language to people of all ages and from countries around the world. While the majority of my time as an instructor was spent before ever even conceiving of a PhD, I believe this prior career path fostered important skills in teaching which have bearing on both my time as a PhD student and my future career.
+
+The skills I learned from teaching include how to organize a course and class, behavior management, how to present information at various levels of understanding, and how to assess learning formatively and summatively. I also have a great deal of experience standing up in front of strangers and talking about things they do not yet know or do not know they know - the *sin qua non* of teaching. In addition, I have a great deal of experience facilitating group work, peer teaching, and independent learning. The skills I have mentioned, however, are merely surface manifestations of a deep understanding of pedagogy and learning science. I hold a master's degree in language education. Much of my training as a master's student was spent learning about pedagogy, the psychology of learning, and instructional design. Whether I am teaching a class, giving a presentation, or leading a workshop, there are a number of principles I follow to make sure my time teaching is effective. 
+
+From the beginning, I make sure to establish a connection with the audience, which may mean simple conversation or a more formal ice breaker. I try to make my content relevant to both their interests and needs, considering what they need to know and presenting it in a way that is engaging. This may mean, for example, presenting information about students' own cultures to help learn language related to a foreign culture. It may mean using a data set based on Marvel, the Great British Bake Off, or Animal Crossing to engage participants in data analysis. Not only do I strive to make content relevant, but I also try to keep the learning task-based. That means that what they are learning is useful to fulfill a real-world task. They start with a problem (i.e. a messy data set) and need to clean it in order to analyze it and discover some interesting trends or insights. In this example, if students are just learning code or statistics without an end goal in mind, the teaching and learning will be less effective. As a final example, I try to make what I am teaching challenging but not difficult. If the content is too easy or too difficult, learning will not take place and students will become demotivated. However, challenging content or activities that are relevant, task-based, and scaffolded to promote success offer the perfect recipe for learning to occur. 
+
+Though much of my experience in teaching has been in the realm of English language education, I believe my experiences are quite transferable to evaluation, statistics, and measurement. I have been complimented numerous times, especially after in-class presentations, that "you can tell I am a teacher" because of the way I organize and present information. More recently, I have had chances to teach data science skills (especially R) in workshops and as a TA in Stats III. I believe many of my teaching skills were easily applied there and no doubt made those experiences better for myself and for the learners involved.
+
+### Program-Related Teaching Experiences
+
+```{r echo=FALSE, results='asis'}
+project("stats3", 4)
+```
+
+During 2021 Spring, I was a teaching assistant in EDPY 678 Statistics for Applied Fields III (aka Stats III). This was part of an internship in which I helped develop or adapt materials for teaching statistical concepts through R. As a teaching assistant, I had R-specific duties (see section *B. Statistical Analysis Experiences*).
+
+For instance, I held R office hours, originally 1 hour every week but after the first month this became by appointment only. I also offered help via email and Slack. In the beginning of the semester, as students were still learning R, I had several students set up appointments so they could troubleshoot issues or ask questions. I also made several short videos about key functions students would need to master in order to be successful for the rest of the semester. I would often get student questions via Slack, usually from the same three or four students. I also posted R tips about useful functions via Slack, too. These were inspired by others’ questions or something I may have run across in my own work or via Twitter.
+
+There were no bad parts of my experience. However, I was concerned around the middle of the semester when students were no longer reaching out to me. I wondered why students no longer needed help from me. I do not believe it was lack of effectiveness on my part, as the students who reached out to me were positive and gave me excellent immediate feedback. Perhaps their data cleaning/wrangling skills may have been good enough to allow them to focus more on the statistics and analyses? I never did find out.
+
+Overall, the experience of working with students one-on-one, helping them learn something I am passionate about, was a very rewarding experience. I have not been a teacher since 2019 Fall. While there are MANY things I do not miss about teaching, helping others understand something is not one of them. In fact, thinking of ways to present information so that it is understandable and actionable is a creative challenge I have always enjoyed, something I alluded to in my discussion of my teaching experience above. For example, making the R videos was one way I was able to do this. The videos required quite a bit of planning to help make the grammar and logic of R code comprehensible. It certainly paralleled my experiences of teaching English as a second/foreign/additional language. Indeed, one students commented that they loved how I "translated" R into easy to understand English in my videos.
+
+The experiences in this internship certainly amplified the experiences I felt during the R workshops I helped lead (see below) and have further cemented a desire to work at the intersection of R and education, whatever that may mean.
+
+
+### Professional Workshops/Trainings
+
+#### R Basics and Data Visualization (2020 Fall) {-}
+
+After my work on the *R Software Handbook*, fellow ESM student Austin Boyd and I worked together to lead a two-session training on R for ESM students. We divided the workshop into R Basics and R Data Visualization. I developed and led the R Data Visualization training. However, Austin and I collaborated on the design of materials for both workshops. We used data sets related to Marvel in order to introduce fundamental R data cleaning, analysis, and visualization skills in a light and familiar context.
+
+This was my first opportunity to teach R, something I have great passion for. I enjoyed designing and implementing the training. I enjoyed thinking about the end goal of the workshops and the steps/skills learners would need to get there, and then how to introduce those steps. We decided to use a mix of examples and fill-in-the-blank activities, which provided enough scaffolding so that workshop participants could work with large chunks of code yet focus only on the key aspects we were trying to teach. I had built in to my session "free time" to play around with the code in order to foster independent practice and provide personalized feedback to participants. Unfortunately, we did not have the time to do that. If I were to lead this workshop again, I think I would have had less examples in order to build in this free practice time.
+
+ My biggest takeaway from this experience was how much I liked teaching "data science," or at least one aspect of it: coding for visualization. This has made me consider the educational aspects of coding more seriously and what careers may be available that integrates the two, including careers in academia. 
+
+
+#### Tableau Training (2020 Spring) {-}
+
+I became interested in Tableau during 2019 Spring, but was disappointed that there were no trainings available on campus for the program. I spent the semester and part of the summer learning how to use it in my free time. I also understood, from research into data analysis software trends and attendance of the Tableau conference, that Tableau was an important skill to learn. I believe it was an important factor in helping me obtain a new job, as it gave me a competitive advantage over other applicants since Tableau is a "hot" data visualization skill to have. I wanted to share my knowledge with fellow ESM students and, thus, I volunteered to lead a hands-on Tableau practical experience training.
+
+It was initially going to be face-to-face, but due to the COVID-19 pandemic, it was moved online. For this training, I created a longitudinal data set (3 years) by combining IPEDS data in Tableau Prep (a free data wrangling program provided with Tableay). The preprocessing of the data required several joins and pivots, which I did not cover during the workshop. However, I provided my original files and Tableau Prep Flow (similar to code or syntax but solely for the Tableau Prep GUI) for those interested in learning more.
+
+Before making an example dashboard, I thought carefully about what someone new to Tableau would need to learn. I decided that an introduction to the Tableau environment, how to make basic chart types, how to style these charts and manage their interactivity, and how to combine charts into a dashboard were key skills. I designed several examples and meticulously documented how I designed them and what key skills these examples focused on.
+
+During the training, I was surprised at the number of students who attended the workshop. Leading the hands-on workshop through Zoom was not necessarily easy. I held the training with the presumption that participants had only one monitor and needed time to switch back and forth from their Tableau to the screen share. In addition, not being able to see everyone’s faces meant I could not use facial expressions as cues for understanding or misunderstanding. To get around these limitations, I made sure to do things slowly and to use the participants who did leave their videos on as checks for understanding. In addition, I remember calling on other individuals just to check their progress and whether they needed more time. These were teaching skills I often relied upon and quickly transferred to an online format.
+
+While this was the first training I had ever led for colleagues, as a teacher, I had a lot of experience teaching new software to students and walking them through how to use it. However, this was undoubtedly the most complex software I had ever utilized in a training. In addition, this was the first time I had lead a training online. I was quite excited and nervous. In the end, the feedback I received suggested that my training was well-planned and beneficial. I took this as a good sign and feel my confidence in teaching statistical or visualization software has increased. I looked forward to one day leading R and data visualization trainings.
+
+#### Equivalence Testing (2019 Fall) {-}
+
+I helped lead an equivalence testing practical experience training in the 2019 Fall ESM seminar. Before being assigned this topic, I had never heard of equivalence testing. However, after having it assigned and diving into the readings about it, I not only found it to be an extremely powerful method that our students should learn about, I also saw immediate application to my own research (see *Intensive English Program and Direct-Admit International Student Achievement,* sections A and B).
+
+I worked in a group of four students, however myself and Austin Boyd seemed to be the most interested in the topic. I collected numerous articles on the topic and shared them with the group. I also primarily design the presentation. I also prepared hands-on exercise materials in R. I designed the R materials so that they could be run by a beginner, and they could be run using the RStudio Cloud platform. Since we knew not everyone was familiar with R, we also planned similar materials using Excel.
+
+The presentation itself was a little disappointing, as few students had attended, and even fewer seemed engaged in the material or the hands-on activities we had prepared. In addition, I am not confident everyone in the group understood what they were presenting about. They did not speak with confidence, even the false confidence that comes when you are BSing something, and most did not participate in the Q&A afterwards. Still, in the end, I was grateful for the opportunity to learn about and try to teach a somewhat advanced statistical method, as well as the chance to develop exercise materials in R. This experience improved my quantitative methods skills, my programming skills, and was a crucial aspect of my research project on intensive English program students.
+
+\newline
+
+## Materials in Appendix F
+
+1.  [Teaching Material: `r project_head("roffice")`](https://drive.google.com/file/d/1aVtZsuhUUHYVYmJET9Jp_tEUbO9epz27/view?usp=sharing)
+2.  [End-of-Course Evaluations: `r project_head("roffice")`](https://drive.google.com/file/d/1jjHex_OnxVpWjzjZpXquyyn0V84f9vzY/view?usp=sharing)
+3.  [Training Materials: Data Visualization in R](https://drive.google.com/file/d/1f2vUg4ciLFmSGfj3TKnkKNyoa2iBu9lD/view?usp=sharing)

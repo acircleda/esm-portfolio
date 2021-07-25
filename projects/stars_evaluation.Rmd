@@ -1,0 +1,12 @@
+
+```{r echo=FALSE, results='asis'}
+project("stars", 3)
+```
+
+I completed this project during the 2020 Fall semester as part of EDPY 667 Multilevel Modeling. For this project, I decided to analyze the relationship between various factors that may influence higher education sustainability ratings as measured by the Association for the Advancement of Sustainability in Higher Education's (AASHE) STARs rating system. Specifically, I looked at institutional factors, local political factors, state-level political factors. 
+
+This project focused on using secondary data sources. While I have used secondary data sources before (see *International Student Graduation Rates* below), this is the first time I have combined data from several different sources to inform an analysis. These included the aforementioned STARS ratings, presidential vote data (up to the 2016 election), IPEDS data, and legislative composition data, the latter of which I scraped together myself from public sources. 
+
+While finding and combining data sets was a great deal of work, I noted that I much preferred the use of secondary data as opposed to survey data collection, especially as I had a recent poor experience with survey recruitment (see *PhD Student Conference Travel and Employment Outcomes* below). In addition, I found the ability to connect these different data sets together was very powerful. The combination of such data gives the ability to answer interesting and important research questions not answerable by a single data source alone. 
+
+This project, from start to finish, was a very meaningful project to me, as it represented one of my first forays into a new area of interest: higher education sustainability. This kept me motivated to produce a meaningful project with potential positive impact. I believe my motivation and interest was apparent in my work. I received such positive feedback from Dr. Rocconi that I was committed to turning this into a publishable manuscript, and I invited him to be co-author. Our manuscript has been under review in the *Journal of Cleaner Production* since January. This project also gave me a chance to explore a new body of literature. As I read more about research on the intersection between society, education, and sustainability (especially climate change), I am learning more and more about related public data sets. I hope to explore these more fully in my future work, including my dissertation.

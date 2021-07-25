@@ -1,0 +1,213 @@
+# B. Statistical Analysis Experience {-}
+
+:::{custom-style="note"}
+***Note**: Listed in alphabetical order.*
+:::
+
+## Timeline of Statistical Analysis Experience {-}
+
+:::{custom-style="plot"}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+project_list %>%
+  filter(str_detect(cat, "S")) %>%
+  mutate(start = factor(start, levels=timeline),
+         end = factor(end, levels=timeline)) %>%
+  ggplot()+
+  geom_linerange(aes(y=fct_rev(shortname), xmin=start, xmax=end,
+                     color=shortname,
+                     linetype=status),
+                 size=1.5,
+                 key_glyph = "path")+
+  scale_color_manual(values=utkpal(project_list %>%
+                                     filter(str_detect(cat, 
+                                                       "S")) %>%
+                                     pull(id)),
+                     guide = "none")+
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 4),
+                   drop = FALSE,
+                   limits=timeline[-(1:1)])+
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 30))+
+  scale_linetype_manual(values=c("solid", "dotted"),
+                        name="Status",
+                        drop = FALSE,
+                        guide_legend(override.aes = list(size = 1)))+
+  theme_classic()+
+    theme(legend.position = "top",
+          axis.title = element_blank(),
+          axis.text.x = element_text(size=8),
+          axis.text.y = element_text(size=9))+
+  guides(linetype = guide_legend(override.aes = list(size = 1)))
+```
+:::
+
+## List of Statistical Analysis Experiences {-}
+
+<!-- stats3 Project done-->
+
+```{r, child="projects/stats3_table.Rmd", eval=TRUE}
+
+```
+
+<!-- engineering Project done-->
+
+```{r echo=FALSE, results='asis'}
+project("engineering", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+<!-- footprint project: Done-->
+
+```{r, child="projects/footprint_table.Rmd", eval=TRUE}
+
+```
+
+<!-- STARS Project: done -->
+
+```{r echo=FALSE, results='asis'}
+project("stars", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+<!-- IEP Project: done-->
+
+```{r echo=FALSE, results='asis'}
+project("iep", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+<!-- gradrates Project: done-->
+
+```{r echo=FALSE, results='asis'}
+project("gradrates", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+<!-- phdstudents Project -->
+
+```{r echo=FALSE, results='asis'}
+project("phdstudents", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+\newline
+
+<!-- advising Project -->
+
+```{r, child="projects/advising_table.Rmd", eval=TRUE}
+
+```
+
+<!-- r handbook Project -->
+
+```{r, child="projects/resm_table.Rmd", eval=TRUE}
+
+```
+
+<!-- roffice Project: done -->
+
+```{r, child="projects/roffice_table.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+## Description and Reflection of Experiences {-}
+
+
+<!-- stats3 Project: done-->
+
+```{r, child="projects/stats3_stats.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- Engineering Project : done-->
+
+```{r, child="projects/eng_stats.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- foorprint : done-->
+
+```{r, child="projects/footprint_stats.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- STARS Project: done -->
+
+```{r echo=FALSE, results='asis'}
+project("stars", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+\newline
+
+<!-- iep Project : done -->
+
+```{r echo=FALSE, results='asis'}
+project("iep", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+
+\newline
+
+<!-- gradrates Project: done -->
+
+```{r, child="projects/gradrates_stats.Rmd", eval=TRUE}
+
+```
+
+<!-- phdstudents Project: consider additional section on data analysis -->
+
+```{r echo=FALSE, results='asis'}
+project("phdstudents", 3)
+```
+See *A. Evaluation and Applied Research Experience*
+
+See *C. Measurement and Instrument Development Experience* 
+
+\newline
+
+<!-- Advising: done -->
+
+```{r echo=FALSE, results='asis'}
+project("advising", 3)
+```
+
+\newline
+
+<!-- R handbook Project: done-->
+
+```{r, child="projects/resm_stats.Rmd", eval=TRUE}
+
+```
+
+\newline
+
+<!-- R office hours: done-->
+
+```{r, child="projects/roffice_stats.Rmd", eval=TRUE}
+
+```
+\newline
+
+## Materials in Appendix B
+
+1.  [Detailed Analysis with Code: `r project_head("stars")` Manuscript](https://drive.google.com/file/d/1pudKUHr2NifTETcYhB6P4xO6pH5gZPAu/view?usp=sharing)
+2.  [First-Author Quantitative Paper (published): `r project_head("gradrates")`](https://drive.google.com/file/d/1YvRgqdRBKkphai9J6iELDzpYmfQlTbbb/view?usp=sharing)
+3.  [First-Author Quantitative Paper (submitted): `r project_head("iep")`](https://drive.google.com/file/d/1kMfTejCqjfdoJlSCiDX8tNoHPaimrkrP/view?usp=sharing)
+
+

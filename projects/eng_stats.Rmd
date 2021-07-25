@@ -1,0 +1,12 @@
+
+```{r echo=FALSE, results='asis'}
+project("engineering", 3)
+```
+
+One of the main statistical lessons I took away from this project was the need to simulate, or otherwise test, proposed quantitative methods before actually collecting data. In my reflection on my PhD Student Conferences project (see section *A. Evaluation and Applied Research Experience*), I discussed the importance of running simulations to make sure a survey instrument or data analysis plan would work as expected. I certainly applied that lesson to this project.
+
+The main evaluation question the College of Engineering team had was related to their new admissions policy: "Are there differences between test and no-test students in terms of student academic achievement?". One of the issues with answering this question was the severe imbalance between test students (90%) and no-test students (10%). Because we wanted to look at the causal impact of a policy, we knew we had to minimize bias as much as we could. Therefore, we decided on the use of propensity score matching (PSM). In addition, we had to consider how we may handle missing data. This added a layer of complexity to the analysis. Furthermore, to answer this question for math courses, where we only had final letter grades, we needed to consider the use of multinomial regression, which added a third layer of complexity to the analysis.
+
+I wanted to be confident we could combine multiple imputation, PSM, PSM diagnostics, and a generalized linear model for our evaluation plan. So, I tested each approach before writing up our plan. Along the way, I learned about specific R packages that handle PSM with imputation (`MatchThem`) and specific R packages for visualizing and assessing balance in multiply-imputed PSM data sets (`cobalt`). I also learned that both OLS and multinomial regression easily handled these complex data sets.
+
+This exercise in methodically walking through potential analysis scenarios ensured that the analysis plan I gave the team from the College of Engineering was based on methods that actually worked. More importantly, I believe this project helped to reinforce the need for pre-analysis when devising a research plan of any kind. This may include simulating data, as I did for a previous project, or just employing new-to-me methods with already existing data, as I did for this project. In this way, I can not only be confident in my plan, but also have at my disposal the packages, code, and practice in interpreting results, all of which can make the actual analysis so much easier.

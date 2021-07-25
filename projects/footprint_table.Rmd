@@ -1,0 +1,23 @@
+
+```{r list_stars, echo=FALSE, results='asis'}
+project("footprint", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+tribble(
+  ~col1, ~col2,
+  "Dates:", "2020 Fall",
+  "Status:", "Complete - Published on CRAN",
+  "Type:", "Software Development",
+  "Brief Description", "The goal of this project was to develop an R package to help calculate air travel greenhouse gas emissions based on arrival/destination airport or latititude and longitude."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

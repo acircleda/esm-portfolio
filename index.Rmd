@@ -1,17 +1,290 @@
 ---
-title: "A Book"
-author: "Frida Gomam"
+title: "ESM Comprehensive Exam"
+author: "Anthony Schmidt"
+#date: "Date of Comprehensive Defense"
 site: bookdown::bookdown_site
-documentclass: book
 output:
-  bookdown::gitbook: default
-  #bookdown::pdf_book: default
+  officedown::rdocx_document:
+     base_format: "bookdown::word_document2"
+     reference_docx: template.docx
+     pandoc_args: [ "--csl", "apa.csl" ]
+     number_sections: false
+     fig_width: 6.5
+     fig_height: 4.33
+     page_margins:
+      bottom: 1
+      top: 1
+      right: 1
+      left: .5
+      header: 0.5
+      footer: 0.5
+# output:
+#   word_document:
+#     reference_docx: "template.docx"
+#     toc: yes
+#     pandoc_args: [ "--csl", "apa.csl" ]
+#     fig_width: 11
+#     fig_height: 6
+documentclass: book
+bibliography: references.bib
+#book_filename: "Schmidt, Anthony - Portfolio"
+
+# bookdown::render_book("index.Rmd")
 ---
 
-# Hello World
+<!-- Link to guidelines: https://docs.google.com/document/d/1PzmL8t5LKpMZlzU6N3kj_bZNCEwOEHk7/edit -->
 
-Hi.
 
-Bye.
 
-<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
+```{r message=FALSE, warning=FALSE, include=FALSE, results='asis'}
+knitr::opts_chunk$set(echo = TRUE, fig.width=6.5, fig.height=4.33)
+
+library(tidyverse)
+library(flextable)
+
+project_list <- tribble(
+  ~id, ~name, ~shortname, ~start, ~end, ~status, ~cat,
+  # cats - E - evaluation | s - statisics | m - instruments
+  # W - writing | T - teaching | P - presentations
+  "tidy", 
+    "#TidyTuesday Data Visualization Research",
+    "#TidyTuesday", 
+    "2019 Summer", "Present", "Ongoing",
+    "E, M, P",
+  "stats3",
+    "Applied Statistics III: Volunteer State University Sharktank Project",
+    "Applied Statistics III", 
+     "2019 Spring", "2019 Summer", "Complete",
+    "S, W",
+  "cse", 
+      "Computer Science Education Needs Analysis",
+      "Computer Science Education", 
+      "2019 Fall", "2020 Spring", "Complete",
+      "E, M, P",
+  "dena",
+      "Distance Education Needs Analysis",
+      "Distance Ed Needs Analysis", 
+      "2019 Fall", "2021 Spring", "Complete",
+      "E, W",
+  "engineering", 
+    "Engineering Evaluation Project",
+    "Engineering Evaluation Project", 
+    "2021 Spring","2021 Summer", "Complete",
+    "E, S, P",
+  "stars", 
+    "Higher Education Sustainability (STARS) Ratings",
+    "Higher Education Sustainability", 
+    "2020 Fall", "2021 Spring", "Complete",
+  "E, S, W",
+  "facultyphd", 
+    "Faculty Perceptions of PhD Applicant Conference Experience",
+    "Faculty Perceptions of Conferences", 
+    "2019 Fall", "2020 Summer", "Complete",
+    "M",
+  "fairchance", 
+    "Fair Chance Impact Evaluation RFP",
+    "Fair Chance",
+    "2021 Spring", "2021 Summer", "Complete",
+    "E",
+  "footprint", 
+    "`footprint` Air Travel Emissions R Package",
+    "footprint R Package", 
+    "2020 Fall", "2021 Spring", "Complete",
+    "S",
+  "iep", 
+    "Intensive English Program and Direct-Admit International Student Achievement",
+    "Intensive English Program", 
+    "2018 Summer", "2020 Fall", "Complete",
+    "E, S, W, P",
+  "gradrates", 
+    "International Student Graduation Rates",
+    "International Student Graduation Rates", 
+    "2019 Spring", "2020 Summer", "Complete",
+    "E, S, W",
+  "phdstudents", 
+      "PhD Student Conference Travel and Employment Outcomes",
+      "PhD Student Conferences",
+      "2019 Summer", "2021 Summer", "Complete",
+      "E, M",
+  "advising", 
+    "Project Advising",
+    "Project Advising", 
+    "2019 Summer", "2019 Fall", "Complete",
+    "S, W",
+  "resm", 
+    "R Software Handbook",
+    "R Software Handbook", 
+    "2020 Summer", "2020 Fall", "Complete",
+    "S",
+  "slam", 
+    "Statistical Literacy Assessment through the Media (SLAM)",
+    "Statistical Literacy Assessment", 
+    "2019 Summer", "2019 Fall", "Complete",
+    "M",
+  "scope3",
+      "University Air Travel",
+      "University Air Travel", 
+      "2020 Summer", "2020 Fall", "Complete",
+  "E, W, P",
+  "roffice",
+    "TA for Statistics in Applied Fields III Transition to R",
+    "Stats III in R", "2020 Fall", "2021 Summer", "Complete",
+    "S, T",
+  "sustainable", 
+    "Sustainable Energy Working Group",
+    "Sustainable Energy Working Group",
+    "2021 Spring", "Present", "Complete",
+    "E, M"
+) %>%
+  arrange(shortname)
+
+project <- function(x, level=NULL, section=F) {
+  
+  case_when(
+    level == 1 ~ "# ",
+    level == 2 ~ "## ",
+    level == 3 ~ "### ",
+    level == 4 ~ "#### ",
+    level == 0 ~ "",
+  ) -> header
+  
+  ifelse(section == F, " {-}", "") -> ending
+  
+  project_list %>%
+    filter(id == x) %>%
+    select(name) %>%
+    mutate(name = paste0(header, name, ending)) %>%
+    pull() -> project_name
+  
+  cat(paste(project_name), sep = '\n\n')
+}
+
+# print project names in other headers
+project_head <- function(x) {
+  project_list %>%
+    filter(id == x) %>%
+    pull(name)
+}
+
+# Timeline set up ----
+
+semesters <- rep(c("Spring", "Summer", "Fall"), times =5) %>%
+  as.data.frame() %>%
+  rename("semesters" = 1)
+
+timeline <- seq(2018, 2021, by=1) %>%
+  as.character() %>%
+  append("Present") %>%
+  as.data.frame() %>%
+  slice(rep(1:n(), each = 3)) %>%
+  rename("years" = 1) %>%
+  add_column(semesters) %>%
+  unite("time", 1:2, sep=" ") %>%
+  mutate(time = ifelse(str_detect(time, "Present"), "Present", time)) %>%
+  slice(-14:-15) %>%
+  pull()
+
+# UTK COlors
+utk_colors <- c(
+  `iep` =  "#FF8200", #tn orange
+  `dena` =  "#58595B", #smokey
+  `gradrates` =  "#00746F", #valley
+  `advising` = "#E65933", #torch
+  `scope3` = "#006C93", #globe
+  `sustainable` = "#517C96", #river
+  `fairchance` =  "#006C93", #limestone
+  `engineering` =  "#517C96", #rock
+  `cse` =  "#8D2048", #leconte
+  `roffice` =  "#754A7E", #regalia
+  `sunsphere` =  "#FED535",
+  `stats3` =  "#A7A9AC", #rock
+  `footprint` =  "#579584", #legacy
+  `resm` = "#B9E1E2", #summit
+  `slam` = "#705550", #buckskin
+  `stars` = "#EE3E80", #energy
+  `phdstudents` = "#ABC178", #switchgrass
+  `tidy` = "2197A9",
+  `facultyphd` = "#EBEA64" #eureka
+)
+
+utkpal <- function(...) {
+  cols <- c(...)
+  
+  if (is.null(cols))
+    return (utk_colors)
+  
+  unname(utk_colors[cols])
+}
+
+
+newpage <- function(n=1){
+  
+  new <- rep("\\newpage", n)
+  cat(paste(new), sep = "\n\n")
+  
+  
+}
+toc_header <- fp_text(color = 'black', bold = TRUE, font.size = 12,
+                     font.family = "Times New Roman")
+```
+
+<!-- Title Page -->
+
+`r officer::run_linebreak()`
+`r officer::run_linebreak()`
+
+:::{custom-style="Date"}
+Presented on
+
+*Date of Comprehensive Exam*
+:::
+
+`r officer::run_linebreak()`
+`r officer::run_linebreak()`
+`r officer::run_linebreak()`
+`r officer::run_linebreak()`
+`r officer::run_linebreak()`
+`r officer::run_linebreak()`
+
+:::{custom-style="committee"}
+**Committee Members**
+
+
+Louis Rocconi, PhD, Chair 
+
+Gary Skolits, PhD 
+
+Christina Ergas, PhD 
+
+Joshua Rosenberg, PhD
+:::
+
+\newpage
+
+<!-- TOC Page -->
+
+
+:::{custom-style="TOC Heading"}
+Table of Contents
+:::
+
+
+`r officer::block_toc(level = 4)`
+
+\newpage
+
+<!-- Begin Sections -->
+
+# Letter of Introduction {-}
+
+The portfolio presented here is a compendium of evaluation, statistics, and measurement (ESM) experiences I have had since becoming a graduate student at the University of Tennessee, Knoxville (UTK) in 2018. My other degrees include a BA in anthropology from the University of South Florida and an MSEd in Language Education from Indiana University, Bloomington. From 2007 to 2014, I worked as an English language instructor in South Korea and Japan. I returned to the United States in 2014 to work as an English language instructor at UTK's English Language Institute, where I taught English to international students. During this time, I became more interested in research and applied to UTK's Theory and Practice in Teacher Education (TPTE) ESL doctoral program. Shortly after taking my first statistics course, I switched my program to ESM. Thanks to the coursework and skills I learned during my first year of the program, I obtained employment as a data visualization researcher at the College and University Professional Association for Human Resources (CUPA-HR), where I am still employed. 
+
+Without even having graduated, the ESM program already placed me on a radically different career trajectory, a testament to the program and the skills I had learned in such a short time. Experiences within the ESM program have deeply impacted my interests, skills, and confidence. These experiences have been vital in helping forge my path towards being a competent scholar. This portfolio aims to not only demonstrate these competencies in ESM but also my growth as a learner.
+
+The portfolio is divided into seven sections, each of which contains descriptions of my experiences and detailed reflections on how those experiences impacted me. My reflections focus on what I learned from my experiences and how I might approach those experiences differently given the lessons learned. I also present key exemplars that demonstrate my competencies. These can be found at the end of each section and in the related appendices. Clicking on any blue hyperlinked text will take you to the document on Google Drive.
+
+Because my ESM experiences varied in length and often overlapped, I have organized them alphabetically for each section. In sections A to C, a timeline of my experiences is presented to indicate starting and ending times, lengths, and progress. While each experience has its own reflection, there are threads of connection within and across the different sections. These threads are often mentioned explicitly in the text.
+
+The portfolio itself should be seen as an exemplar of my ESM competencies. The portfolio is a product of reflexivity, a practice that is usually attributed to qualitative research. Reflexivity requires researchers to turn the lens of analysis back on themselves in order to establish awareness of their past experiences and values, and how these impact what they do. Reflexivity through written reflections is stressed throughout ESM courses and have been fundamental for creating this portfolio. A great debt is also owed to quantitative skills, as well. This portfolio was written and formatted completely in R, a statistical programming language. This allowed me to create a highly customized and consistent document using a language I have become quite proficient in, as documented in my reflections. 
+
+In sum, this portfolio was created through a synthesis of qualitative and quantitative skills, which nicely reflects the synthesis of these skills within the ESM program. Likewise, the experiences detailed in this portfolio should clearly demonstrate how my progress through the program has also involved the synthesis of these skills and many others. By the end of this portfolio, it should be clear that I have demonstrated competency in the field of ESM and that I am ready to advance to doctoral candidacy.

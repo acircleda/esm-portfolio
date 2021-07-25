@@ -1,0 +1,23 @@
+
+```{r echo=FALSE, results='asis'}
+project("roffice", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates", "2020 Fall - 2021 Spring",
+  "Status:", "Complete",
+  "Data Analyses", "Data wrangling, data cleaning, descriptive statistics, data visualization, missing data analysis, factor analysis, regression",
+  "Brief Description", "Previous version of this course were taught using SPSS. I helped develop teaching/learning materials for teaching the topics using R. I also  created learning videos and held R office hours for students taking Stats III."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

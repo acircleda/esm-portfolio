@@ -1,0 +1,25 @@
+
+```{r echo=FALSE, results='asis'}
+project("iep", 3)
+```
+
+:::{custom-style="citation"}
+**Schmidt, A.** (2019, March). A comparison of direct-admit and IEP undergraduate international student achievement [Poster presentation]. University of Tennessee, Knoxville College of Education, Health, and Human Sciences Graduate Research Colloquium.
+:::
+
+I presented preliminary results of research for this project at the 2019 College of Education, Health, and Human Sciences Graduate Research Colloquium. This was my first-ever poster presentation. I thought it would be a great opportunity to combine my love for research with my visual design skills. I was able to create a poster that was visually appealing while still presenting research findings in a clear way. Unlike the reflection above where I used the Better Poster design (I had not learned about the Better Poster design at this time), this was organized as a traditional poster, with an introduction, research questions, findings, and discussion sections.
+
+One area I found challenging was the presentation of statistical information, which was mostly t-tests and Cohen's *d*. I wanted this information to be the focus because it revealed the key results of the research. However, I also knew I would be presenting to a mixed audience and would have to make it as clear as possible to those who are not familiar with statistics. I have now learned from experience presenting at several poster sessions now that most of the information comes through orally, not visually. The visuals are really meant to provide an attraction to the poster and a big picture take away.
+
+I used bar charts to covey mean GPAs between directly-admitted international students and students who had come through an intensive English program. All together, I had 12 sets of bars. In hindsight, this was too many. While I believe I did a great job with orally explaining what the visuals represented, I also believe the charts, though displayed with good color choices (grey and UTK's fountain as a color highlight) did not do an adequate job in either catching attention or conveying information to those who silently read posters.
+
+While I still think my poster was much better designed than a traditional, text-heavy poster presentation, I think it would have been better if I followed a Better Poster design. A Better Poster design would have forced me to rethink the visual presentation of data. I could have chosen a better format of the data (perhaps a creative and easy to read dot plot) and only the necessary data required to attract one's attention.
+
+:::{custom-style="citation"}
+**Schmidt, A.** (2019, March). A comparison of direct admit and IEP student academic achievement [Paper presentation]. TESOL International Conference, Atlanta, Georgia.
+:::
+
+Shortly after my poster presentation, I delivered a 50-minute oral version of my research to an audience of about 75 at the 2019 TESOL Conference. Knowing that this conference had a strong orientation towards practitioners (i.e. English language teachers who may or may not have backgrounds in research), I continued to carefully consider the challenge of presenting statistical information. I decided to build into my results section a brief overview of key statistics I would refer to. I explained what *p*-values mean, trying to simplify the concept of null-hypothesis significance testing and explaining that *p* simple equals a "chance" something would appear if there were no true differences. I also explained Cohen's *d* effect sizes by visually demonstrating how it refers to distance between means.
+
+I believe this quick, two-minute primer and the careful approach to explaining results that I took paid off. I got more positive feedback on this presentation than any presentation I have ever given to date. Much of this feedback came after the presentation, as audience members approached me and asked questions or shared information about their own intensive English program. One audience member, a faculty member at the University of Arizona, said that if I were her graduate student, she would have been very proud of me. I don't blush easily, but this comment certainly made me do it.
+

@@ -1,0 +1,23 @@
+
+```{r echo=FALSE, results='asis'}
+project("scope3", 3)
+```
+
+
+:::{custom-style="citation"}
+**Schmidt, A.** (2020, October). University air travel and GHG mitigation: Examining institutional policies through the lens of #flyingless [Invited presentation]. Committee on the Campus Environment, University of Tennessee, Knoxville.
+:::
+  
+At the end of my 2020 Summer internship with the Office of Sustainability, I was invited to attend a Committee on the Campus Enviornment (CCE) meeting to share my research on how university climate policies address business travel. The committee consisted of university faculty and staff working on or interested in sustainability across campus. I was excited to share my work with the CCE, hoping that my research would catalyze some action to turn what is termed in UTK's Sustainability Master Plan a "policy opportunity" to address emissions from business travel into actual policy. 
+
+I was given positive feedback on the research and was also encouraged to turn my research into a manuscript for publication. I enjoyed the content and ideas of that CCE meeting so much that I have now become a member and have attended nearly every meeting since. In fact, now I am leading a major survey on students attitudes toward sustainability, discussed elsewhere in this portfolio. The presentation of this research has had a positive impact on my involvement with people and environmental activities across the campus. Unfortunately, though I have brought up the topic of addressing emissions from travel numerous times, nothing has been done yet. However, whenever I do bring it up, the idea does receive positive response. I believe there are going to be some revisions to the Sustainability Master Plan by the CCE and that will be another chance for me to address this issue.
+
+:::{custom-style="citation"}
+**Schmidt, A.** (2020, November). University air travel and GHG mitigation: Examining institutional policies through the lens of #flyingless [Invited panel presentation]. Roundtable of Sustainable Academic Travel: Mapping Travel Policies in FHE.
+:::
+  
+I shared some of my air travel research on Twitter using the hashtage #flyingless. The tweet was shared and picked up by some in the circle of academics who use that hashtag. I was invited to join a panel as part of the Roundtable on Sustainable Academic Travel. I presented alongside others who had done similar research on European universities. In fact, I believe the entire audience was European. It seems European universities, especially those in the UK, have taken business air travel emissions more seriously than those in the states. One reason for this - as was discussed during our panel - is that alternatives to flying are simply easier in Europe when compared to the US, as we lack adequate rail services.
+
+I found sharing research in a panel format very appealing. The brief presentations and the chance to engage in interesting dialogue was very enjoyable, especially when compared to a single-author oral presentation. One reason may be because the onus to answer questions is not on a single person, but is rather shared. And, hearing others' insightful answers can easily spark additional information to contribute during Q&A or additional information to consider in one's own work. I also enjoyed meeting others who share very similar research interests. I am still in contact with the panel presenters to this day. All in all, I truly enjoyed the panel presentation and hope to be part of one again in the future. 
+
+One final thought is that Twitter has been a powerful tool, before and during the pandemic, for connecting myself to people and opportunities I  may not have encountered otherwise in my daily course of activities, or even at conferences where networking and "hallway conversations" are held to high regard. For introverts like myself, organizing and collaboration via the internet has been more beneficial and has often led to more conducive in-person meetings than vice-versa. I believe Twitter is an important part of my scholarly activity and this opportunity to do a panel presentation is one example of that.

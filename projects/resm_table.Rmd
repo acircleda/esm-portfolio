@@ -1,0 +1,24 @@
+
+```{r echo=FALSE, results='asis'}
+project("resm", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates", "2020 Summer",
+  "Status:", "Complete",
+  "Data Analyses", "Data wrangling, data cleaning, descriptive statistics, data visualization",
+  "Brief Description", "The purpose of this project was to develop a handbook (with contributions from Austin Boyd) useful for ESM students learning R. The handbook was both a reference guide and a didactic tool that takes students through installing R, importing data, data cleaning, data analysis, and data visualization. The online version of the book can be accessed at https://bookdown.org/aschmi11/RESMHandbook/."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+
+\newline

@@ -1,0 +1,73 @@
+# E. Presentation Experience {-}
+
+:::{custom-style="note"}
+***Note:** Listed in reverse chronological order.*
+:::
+
+## List of Presentations at Professional Conferences {-}
+
+:::{custom-style="citation"}
+
+**Schmidt, A.**, Rocconi, L., & Boyd, A. (2021, August). From click to code: Insights from instructors and students on moving from SPSS to R in a graduate-level applied statistics course [Oral presentation]. 2021 Joint Statistical Meetings.
+
+
+**Schmidt, A.** (2020, November). University air travel and GHG mitigation: Examining institutional policies through the lens of #flyingless [Invited panel presentation]. Roundtable of Sustainable Academic Travel: Mapping Travel Policies in FHE.
+
+**Schmidt, A.**, & Rosenberg, J. (2020, March). Becoming “tidyr” over time: Data visualization development in an online community of practice [Poster presentation]. University of Tennessee, Knoxville College of Education, Health, and Human Sciences Graduate Research Colloquium.
+  
+Rosenberg, J. M., Hodge, L., Aydeniz, M., **Schmidt, A.** Lishinski, A., Rich, K., Longnecker, J., Mann. M., & Sadovnik, A. (2020, January). A survey of teachers and administrators regarding the implementation of new K-8 computing education standards in Tennessee [Oral presentation]. 14th Annual Tennessee STEM Education Research Conference, Cookeville, Tennessee.
+
+**Schmidt, A.** (2019, March). A comparison of direct admit and IEP student academic achievement [Paper presentation]. TESOL International Conference, Atlanta, Georgia.
+  
+**Schmidt, A.** (2019, March). A comparison of direct-admit and IEP undergraduate international student achievement [Poster presentation]. University of Tennessee, Knoxville College of Education, Health, and Human Sciences Graduate Research Colloquium.
+:::
+
+## List of Presentations for Clients {-}
+
+:::{custom-style="citation"}
+Banks, A., Christen, N., Narvaiz, S., **Schmidt, A.** (2021). College of Engineering impact evaluation plan [Client presentation]. 2021 Spring EDPY 651 Advanced Evaluation.
+  
+**Schmidt, A.** (2020, October). University air travel and GHG mitigation: Examining institutional policies through the lens of #flyingless [Client presentation]. Committee on the Campus Environment, University of Tennessee, Knoxville.
+:::
+
+## Description and Reflection of Experiences {-}
+
+:::{custom-style="note"}
+***Note:** Listed in alphabetical order.*
+:::
+
+<!-- done -->
+
+```{r, child="projects/tidy_pres.Rmd", eval=TRUE}
+
+```
+
+<!--  -->
+```{r echo=FALSE, results='asis'}
+project("cse", 3)
+```
+
+See *Section A. Evaluation and Applied Research Experience*
+\newline
+
+<!--  -->
+```{r, child="projects/eng_pres.Rmd", eval=TRUE}
+```
+\newline
+
+<!--  -->
+```{r, child="projects/iep_pres.Rmd", eval=TRUE}
+```
+\newline
+
+<!--  -->
+```{r, child="projects/scope3_pres.Rmd", eval=TRUE}
+```
+\newline
+
+## Materials in Appendix E
+
+1.  [First Author Paper Presentation: `r project_head("iep")`](https://drive.google.com/file/d/1z0FuhcNmtdiEvn7jkPjpwfo12oprFaO6/view?usp=sharing)
+2.  [First Author Poster Presentation: `r project_head("tidy")`](https://drive.google.com/file/d/1YolWVaplCzojN_S1qeEgbgIT3Y20W4Qx/view?usp=sharing)
+3.  [Panel Presentation: `r project_head("scope3")`](https://drive.google.com/file/d/1iDIHeLxOi6vQYCb2-iu8DR8FlXcShfAa/view?usp=sharing)
+

@@ -1,0 +1,23 @@
+
+```{r echo=FALSE, results='asis'}
+project("advising", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates", "2019 Summer",
+  "Status:", "Complete",
+  "Data Analyses", "Descriptive statistics",
+  "Brief Description", "This project was related to the Evaluation, Statistics, and Measurement department's undergraduate advising survey. My role was to help process the raw data for further quantitative and qualitative analysis. In addition, I analyzed data and prepared the report for the College of Architecture and Design."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

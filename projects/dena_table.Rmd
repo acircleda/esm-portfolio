@@ -1,0 +1,25 @@
+
+```{r echo=FALSE, results='asis'}
+project("dena", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates:", "2019 Fall - 2021 Spring",
+  "Status:", "Completed",
+  "Type:", "Needs Assessment",
+  "Data Collection:", "Interviews",
+  "Data Analyses", "Qualitative (thematic analysis)",
+  "Brief Description", "The purpose of this needs assessment was to explore the elements needed for a successful Distance Education Master’s Degree program in Evaluation at the University of Tennessee, Knoxville. "
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

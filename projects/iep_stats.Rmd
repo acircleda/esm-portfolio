@@ -1,0 +1,26 @@
+
+```{r echo=FALSE, results='asis'}
+project("iep", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+tribble(
+  ~col1, ~col2,
+  "Dates:", "2018 Summer - 2020 Summer",
+  "Status:", "Completed - Submitted for Publication",
+  "Type:", "Applied research",
+  "Data Collection:", "Institutional data",
+  "Data Analyses", "Linear Regression, Equivalence Testing",
+  "Brief Description", "This project was aimed at understanding the effectiveness of UTK's Intensive English Program by comparing its students who matriculated to UTK with students who entered UTK directly due to higher language proficiency scores. The final manuscript was submitted to *TESOL Quarterly* and has undergone one revise and resubmit."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all") %>%
+  ftExtra::colformat_md()
+```
+
+\newline

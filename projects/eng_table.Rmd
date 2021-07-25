@@ -1,0 +1,25 @@
+
+```{r echo=FALSE, results='asis'}
+project("engineering", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates:", "2021 Spring - 2021 Summer",
+  "Status:", "Completed",
+  "Type:", "Impact Evaluation",
+  "Data Collection:", "Secondary data",
+  "Data Analyses", "Quantitative (propensity score matching, regression)",
+  "Brief Description", "This project involved the development of an evaluation/research plan for the College of Engineering."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

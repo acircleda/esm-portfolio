@@ -1,0 +1,26 @@
+
+```{r echo=FALSE, results='asis'}
+project("cse", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates:", "2019 Fall - 2020 Spring",
+  "Status:", "Complete",
+  "Type:", "Needs Assessment",
+  "Data Collection:", "Online survey (Qualtrics)",
+  "Data Analyses", "Quantitative (descriptive statistics, correlation)
+Qualitative (thematic analysis)",
+  "Brief Description", "This project was a needs analysis for a UTK community-engaged research seed-funded grant project. The project was designed to offer K-8 teachers in East Tennessee professional development opportunities for teaching computer science based on new (2019) state digital readiness standards."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

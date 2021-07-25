@@ -1,0 +1,191 @@
+# D. Scholarly Writing Experience {.unnumbered}
+
+<!-- ## Timeline of Scholarly Writing Experiences {-} -->
+
+<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
+
+<!-- project_list %>% -->
+
+<!--   filter(str_detect(cat, "W")) %>% -->
+
+<!--   mutate(start = factor(start, levels=timeline), -->
+
+<!--          end = factor(end, levels=timeline)) %>% -->
+
+<!--   ggplot()+ -->
+
+<!--   geom_linerange(aes(y=fct_rev(shortname), xmin=start, xmax=end, -->
+
+<!--                      color=shortname, -->
+
+<!--                      linetype=status), -->
+
+<!--                  size=1.5, -->
+
+<!--                  key_glyph = "path")+ -->
+
+<!--   scale_color_manual(values=utkpal(project_list %>% -->
+
+<!--                                      filter(str_detect(cat,  -->
+
+<!--                                                        "W")) %>% -->
+
+<!--                                      pull(id)), -->
+
+<!--                      guide = "none")+ -->
+
+<!--   scale_x_discrete(labels = function(x) str_wrap(x, width = 4), -->
+
+<!--                    drop = FALSE, -->
+
+<!--                    limits=timeline[-(1:3)])+ -->
+
+<!--   scale_linetype_manual(values=c("solid", "dotted"), -->
+
+<!--                         name="Status")+ -->
+
+<!--   theme_classic()+ -->
+
+<!--     theme(legend.position = "top", -->
+
+<!--           axis.title = element_blank())+ -->
+
+<!--   guides(linetype = guide_legend(override.aes = list(size = 1))) -->
+
+<!-- ``` -->
+
+## List of Evaluation/Assessment/Technical Reports {.unnumbered}
+
+```{r echo=FALSE, results='asis'}
+project("stats3", 3)
+```
+
+:::{custom-style="citation"}
+Koerber, N., Pacheco-Diaz, N., **Schmidt, A.**, Whittsitt, L. (2019, May). *Volunteer State University student perceptions research: Technical report* [Technical report]. University of Tennessee, Knoxville.
+:::
+
+```{r echo=FALSE, results='asis'}
+project("cse", 3)
+```
+
+:::{custom-style="citation"}
+**Schmidt, A.** (2019). *A needs analysis for the "Planting the Seeds for Computer Science" program* [Technical report]. University of Tennessee, Knoxville.
+
+**Schmidt, A.** (2020). *Key takeaways of the computer science standards need survey* [Technical report]. University of Tennessee, Knoxville. <https://rpubs.com/acircleda/CSNeedsResults>
+:::
+
+```{r echo=FALSE, results='asis'}
+project("dena", 3)
+```
+
+:::{custom-style="citation"}
+Boyd, A., Christen, N., Jones, N., **Schmidt, A.** York, M. (2021). *Distance education needs assessment* [Technical report]. University of Tennessee, Knoxville.
+:::
+
+```{r echo=FALSE, results='asis'}
+project("advising", 3)
+```
+
+:::{custom-style="citation"}
+**Schmidt, A.**, Rocconi, L., Morrow, J.A., Berry, B. (2019). *College of Architecture and Design's undergraduate advising 2019 report* [Technical report]. Evaluation, Statistics, and Measurement (ESM) Program Research Group.
+
+Morrow, J. A., Rocconi, L., Butler, B., & **Schmidt, A.** (2019). U*niversity of Tennessee's undergraduate advising 2019 evaluation end of year report* [Technical report]. Evaluation, Statistics, and Measurement (ESM) Program Research Group.
+:::
+
+## List of Research Papers {.unnumbered}
+
+```{r echo=FALSE, results='asis'}
+project("stars", 3)
+```
+
+:::{custom-style="citation"}
+**Schmidt, A.**, Rocconi, L. (2020). STARS and stripes: Political and institutional factors that affect higher education sustainability ratings [Under review]. *Journal of Cleaner Production*. <https://doi.org/10.35542/osf.io/d5bku>
+:::
+
+```{r echo=FALSE, results='asis'}
+project("iep", 3)
+```
+
+
+:::{custom-style="citation"}
+**Schmidt, A.** (2020). Intensive English program (IEP) student academic achievement: Comparing IEP and directly-admitted international student GPA [Under review]. *Language Teaching Research*. <https://doi.org/10.35542/osf.io/vm37t>
+:::
+
+```{r echo=FALSE, results='asis'}
+project("scope3", 3)
+```
+
+:::{custom-style="citation"}
+**Schmidt A.** (2021). University air travel and greenhouse gas mitigation: An analysis of higher education climate policies [Under review]. *Travel Behaviour and Society*. <https://doi.org/10.35542/osf.io/bmuas>
+:::
+
+## List of Publications {.unnumbered}
+
+:::{custom-style="citation"}
+**Schmidt, A.** (2020). Are international students getting a bang for their buck? The relationship between expenditures and international student graduation rates. *The Journal of International Students, 10*(3), 646-663. <https://doi.org/10.32674/jis.v10i3.1279>
+
+**Schmidt, A.** (2019). [Review of the book International students in first-year writing: A journey through socio-academic space, by M. Siczek]. *Journal of International Students, 9*(3), 929-932. <https://doi.org/10.32674/jis.v0i0.907>
+:::
+
+## Description and Reflection of Experiences {.unnumbered}
+
+:::{custom-style="note"}
+***Note**: Listed in alphabetical order.*
+:::
+
+```{r echo=FALSE, results='asis'}
+project("stats3", 3)
+```
+
+See *B. Statistical Analysis Experience*
+\newline
+
+```{r echo=FALSE, results='asis'}
+project("cse", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+\newline
+
+
+```{r, child="projects/dena_writing.Rmd", eval=TRUE}
+
+```
+\newline
+
+```{r echo=FALSE, results='asis'}
+project("stars", 3)
+```
+See *A. Evaluation and Applied Research Experience*
+\newline
+
+```{r echo=FALSE, results='asis'}
+project("iep", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+\newline
+
+```{r, child="projects/gradrates_writing.Rmd", eval=TRUE}
+
+```
+
+```{r echo=FALSE, results='asis'}
+project("advising", 3)
+```
+
+See *B. Statistical Analysis Experience*
+\newline
+
+```{r echo=FALSE, results='asis'}
+project("scope3", 3)
+```
+
+See *A. Evaluation and Applied Research Experience*
+\newline
+
+## Materials in Appendix D
+
+1.  [First-Author Paper (published): `r project_head("gradrates")`](https://drive.google.com/file/d/1b7stdOscVnYz0Wm0xZwGheC2gpmaPTly/view?usp=sharing)
+2.  [Technical Report: `r project_head("advising")`](https://drive.google.com/file/d/1CViycBnroU8at2IbfRBjh6sFWLP7MH0r/view?usp=sharing)
+3.  [First-Author Paper (submitted): `r project_head("scope3")`](https://drive.google.com/file/d/1wVHWCv70lmPHgvU6YqzrA2kXzu-_kjhe/view?usp=sharing)

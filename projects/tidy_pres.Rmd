@@ -1,0 +1,14 @@
+
+```{r echo=FALSE, results='asis'}
+project("tidy", 3)
+```
+
+This poster presentation was based on a Twitter analytics project I did with Dr. Rosenberg (TPTE) in which we analyzed contributions to #TidyTuesday, a weekly data visualization challenge hosted on Twitter. We used thematic analysis to analyze Tweet content and analysis of coding functions for code that was contributed alongside data visualizations. It was presented at the 2020 Spring University of Tennessee, Knoxville College of Education, Health, and Human Sciences Graduate Research Colloquium.
+
+For this poster presentation, I decided to design my poster following the Better Poster format (https://www.youtube.com/watch?v=1RwJbhkCA58) that has become quite popular recently. This poster design is meant to capture audience attention by displaying a key takeaway as a very large sentence which takes up 2/3 of the poster. It is meant to be eye catching and legible from a distance.
+
+Of the two dozen or so presenters that day, I was the only one who chose a Better Poster design. I do not know if I got more foot traffic or engagement compared to other posters; however, I did get *many* positive comments about the design of the poster. In fact, I would say that I discussed the poster design about as much as the actual poster content that day.
+
+I found the Better Poster design clearly displayed the main point, so that those who spoke to me could easily read it and begin asking questions. The design of the poster includes an "ammo bar" section which contains the charts and graphs necessary to help explain the information. Presenters are meant to stand next to the ammo bar. This was certainly a very helpful tool that I could use to explain the research without blocking the remaining body of the poster. The Better Poster design incorporates a QR code to download the poster (or, in my case, takes you to [a related blog post](https://www.anthonyschmidt.co/talk/2020-3-becoming-tidyr-over-time/)), and this, too, was very effective, as I had a number of new site visits that day. I believe my poster content was great, but my poster design was even better. In fact, I won a small award for best poster design from that conference.
+
+I really enjoyed the Better Poster design and found the development of the poster was structured enough that is was easy and fast to design yet still allowed for creativity. I also think that most attendees found my topic to be of interest, especially as many recognized the need for data visualizations. However, my greatest takeaways from this presentation opportunity were related to the poster design.

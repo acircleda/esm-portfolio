@@ -1,0 +1,27 @@
+
+```{r echo=FALSE, results='asis'}
+project("phdstudents", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates:", "2019 Summer - 2021 Summer",
+  "Status:", "Complete",
+  "Type:", "Survey Research",
+  "Data Collection:", "Online survey (Qualtrics)",
+  "Data Analyses", "Content validity: cognitive interviews\n
+Reliability: test-retest reliability using intraclass correlations\n
+Analysis: Survey Weighting (Raking), OLS Regression, Ridge Regression",
+  "Brief Description", "This project was developed as a proposal in EDPY 682 (Educational Research Methods) during 2019 Summer. The goal of the project is to understand the relationship between PhD students’ conference activities and their employment outcomes. Cognitive interviews to assess validity were conducted in March/April of 2020. Data collection for test-retest reliability began in May 2020. Final analyses were completed in Spring/Summer 2021. Manuscript is being prepared for submission."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all")
+```
+
+\newline

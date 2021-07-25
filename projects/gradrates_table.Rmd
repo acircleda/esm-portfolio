@@ -1,0 +1,25 @@
+
+```{r echo=FALSE, results='asis'}
+project("gradrates", 3)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+tribble(
+  ~col1, ~col2,
+  "Dates", "2019 Spring - 2020 Summer",
+  "Status:", "Completed - Published",
+  "Type:", "Applied Research",
+  "Data Analyses", "Descriptive statistics, bivariate correlation, linear regression with robust standard errors",
+  "Brief Description", "This project was developed as part of HEAM 620: Large Data Sets in Educational Research. I utilized IPEDS data to study the relationships between international student graduation rates and institutional expenditures. The culmination of this research is a first-author published article in the *Journal of International Students*."
+) %>% flextable() %>%
+  align(j = "col2", align = "left") %>%
+  delete_part(part = "header") %>%
+  fontsize(size=12) %>%
+  font(fontname = "Times") %>%
+  border_remove() %>%
+  set_table_properties(layout = "autofit") %>%
+  valign(valign = "top", part = "all") %>%
+  ftExtra::colformat_md()
+```
+
+\newline
