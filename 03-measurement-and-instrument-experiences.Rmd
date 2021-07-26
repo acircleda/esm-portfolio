@@ -129,8 +129,7 @@ See *A. Evaluation and Applied Research Experience*
 
 <!-- slam Project: done -->
 
-```{r echo=FALSE, results='asis'}
-project("slam", 3)
+```{r child="projects/slam_instruments.Rmd", eval=TRUE}
 ```
 \newline
 

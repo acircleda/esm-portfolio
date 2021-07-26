@@ -215,7 +215,7 @@ newpage <- function(n=1){
   
   
 }
-toc_header <- fp_text(color = 'black', bold = TRUE, font.size = 12,
+toc_header <- officer::fp_text(color = 'black', bold = TRUE, font.size = 12,
                      font.family = "Times New Roman")
 ```
 

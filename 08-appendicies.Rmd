@@ -1,43 +1,43 @@
+# Appendices
 
+## Appendix A – Evaluation and Applied Research Materials
 
-# Appendix A – Evaluation and Applied Research Materials
-
-## [Evaluation Proposal: `r project_head("cse")`](https://drive.google.com/file/d/1PY7MQI44gSy9dnfB0gKz4tuHCTp4ApxS/view?usp=sharing)
+### [Evaluation Proposal: `r project_head("cse")`](https://drive.google.com/file/d/1PY7MQI44gSy9dnfB0gKz4tuHCTp4ApxS/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(13) -->
 <!-- ``` -->
 
-## [Evaluation Proposal `r project_head("fairchance")`](https://drive.google.com/file/d/1l0DQb3vqV87Gukmxta9M9tG37GfbkESf/view?usp=sharing)
+### [Evaluation Proposal: `r project_head("fairchance")`](https://drive.google.com/file/d/1l0DQb3vqV87Gukmxta9M9tG37GfbkESf/view?usp=sharing)
 
 
 <!--  ```{r echo=FALSE, results='asis'} -->
 <!--  newpage(48) -->
 <!--  ``` -->
 
-## [First Author Research Proposal `r project_head("phdstudents")`](https://drive.google.com/file/d/1NFmD_RAIHE0ndhtLfjGP8dnce94HBZCO/view?usp=sharing)
+### [First Author Research Proposal: `r project_head("phdstudents")`](https://drive.google.com/file/d/1NFmD_RAIHE0ndhtLfjGP8dnce94HBZCO/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(29) -->
 <!-- ``` -->
 
 
-# Appendix B – Statistical Analysis Materials
+## Appendix B – Statistical Analysis Materials
 
-## [Detailed Analysis with Code: `r project_head("stars")`](https://drive.google.com/file/d/1pudKUHr2NifTETcYhB6P4xO6pH5gZPAu/view?usp=sharing)
+### [Detailed Analysis with Code: `r project_head("stars")`](https://drive.google.com/file/d/1pudKUHr2NifTETcYhB6P4xO6pH5gZPAu/view?usp=sharing)
 
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(27) -->
 <!-- ``` -->
 
-## [First-Author Quantitative Paper (published): `r project_head("gradrates")`](https://drive.google.com/file/d/1YvRgqdRBKkphai9J6iELDzpYmfQlTbbb/view?usp=sharing)
+### [First-Author Quantitative Paper (published): `r project_head("gradrates")`](https://drive.google.com/file/d/1YvRgqdRBKkphai9J6iELDzpYmfQlTbbb/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(18) -->
 <!-- ``` -->
 
-## [First-Author Quantitative Paper (submitted): `r project_head("iep")`](https://drive.google.com/file/d/1kMfTejCqjfdoJlSCiDX8tNoHPaimrkrP/view?usp=sharing)
+### [First-Author Quantitative Paper (submitted): `r project_head("iep")`](https://drive.google.com/file/d/1kMfTejCqjfdoJlSCiDX8tNoHPaimrkrP/view?usp=sharing)
 
 
 <!-- ```{r echo=FALSE, results='asis'} -->
@@ -45,95 +45,95 @@
 <!-- ``` -->
 
 
-# Appendix C – Measurement and Instrument Development Materials
+## Appendix C – Measurement and Instrument Development Materials
 
-## [Survey Instrument: `r project_head("sew")`](https://drive.google.com/file/d/1ogXJLEvtxLhulF43UTEW-HG_W-9xyjuc/view?usp=sharing)
+### [Survey Instrument: `r project_head("sustainable")`](https://drive.google.com/file/d/1ogXJLEvtxLhulF43UTEW-HG_W-9xyjuc/view?usp=sharing)
 
 
-## [Interview Protocol: `r project_head("dena")`](https://drive.google.com/file/d/1fLIQ0j286_w_BKXgR-72LWojv1_MpRnP/view?usp=sharing)
+### [Interview Protocol: `r project_head("dena")`](https://drive.google.com/file/d/1fLIQ0j286_w_BKXgR-72LWojv1_MpRnP/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!--  newpage(4) -->
 <!-- ``` -->
 
 
-## [Assessment: `r project_head("slam")`](https://drive.google.com/file/d/1fLIQ0j286_w_BKXgR-72LWojv1_MpRnP/view?usp=sharing)
+### [Assessment: `r project_head("slam")`](https://drive.google.com/file/d/1dSqzienXFhghBZrkkUZzzlvctpFG0-E_/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(31) -->
 <!-- ``` -->
 
 
-# Appendix D – Scholarly Writing Materials
+## Appendix D – Scholarly Writing Materials
 
-## [First-Author Paper (published): `r project_head("gradrates")`](https://drive.google.com/file/d/1b7stdOscVnYz0Wm0xZwGheC2gpmaPTly/view?usp=sharing)
+### [First-Author Paper (published): `r project_head("gradrates")`](https://drive.google.com/file/d/1b7stdOscVnYz0Wm0xZwGheC2gpmaPTly/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(18) -->
 <!-- ``` -->
 
 
-## [Technical Report: `r project_head("advising")`](https://drive.google.com/file/d/1CViycBnroU8at2IbfRBjh6sFWLP7MH0r/view?usp=sharing)
+### [Technical Report: `r project_head("advising")`](https://drive.google.com/file/d/1CViycBnroU8at2IbfRBjh6sFWLP7MH0r/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(34) -->
 <!-- ``` -->
 
-## [First-Author Paper (submitted): `r project_head("scope3")`](https://drive.google.com/file/d/1wVHWCv70lmPHgvU6YqzrA2kXzu-_kjhe/view?usp=sharing)
+### [First-Author Paper (submitted): `r project_head("scope3")`](https://drive.google.com/file/d/1wVHWCv70lmPHgvU6YqzrA2kXzu-_kjhe/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(47) -->
 <!-- ``` -->
 
 
-# Appendix E – Presentation Materials
+## Appendix E – Presentation Materials
 
-## [First Author Paper Presentation: `r project_head("iep")`](https://drive.google.com/file/d/1z0FuhcNmtdiEvn7jkPjpwfo12oprFaO6/view?usp=sharing)
-
-<!-- ```{r echo=FALSE, results='asis'} -->
-<!-- newpage(1) -->
-<!-- ``` -->
-
-## [First Author Poster Presentation: `r project_head("tidy")`](https://drive.google.com/file/d/1YolWVaplCzojN_S1qeEgbgIT3Y20W4Qx/view?usp=sharing)
+### [First Author Paper Presentation: `r project_head("iep")`](https://drive.google.com/file/d/1z0FuhcNmtdiEvn7jkPjpwfo12oprFaO6/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(1) -->
 <!-- ``` -->
 
-## [Panel Presentation: `r project_head("scope3")`](https://drive.google.com/file/d/1iDIHeLxOi6vQYCb2-iu8DR8FlXcShfAa/view?usp=sharing)
+### [First Author Poster Presentation: `r project_head("tidy")`](https://drive.google.com/file/d/1YolWVaplCzojN_S1qeEgbgIT3Y20W4Qx/view?usp=sharing)
+
+<!-- ```{r echo=FALSE, results='asis'} -->
+<!-- newpage(1) -->
+<!-- ``` -->
+
+### [Panel Presentation: `r project_head("scope3")`](https://drive.google.com/file/d/1iDIHeLxOi6vQYCb2-iu8DR8FlXcShfAa/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(6) -->
 <!-- ``` -->
 
 
-# Appendix F –Teaching and Training Materials
+## Appendix F –Teaching and Training Materials
 
-## [Teaching Material: `r project_head("roffice")`](https://drive.google.com/file/d/1aVtZsuhUUHYVYmJET9Jp_tEUbO9epz27/view?usp=sharing)
+### [Teaching Material: `r project_head("roffice")`](https://drive.google.com/file/d/1aVtZsuhUUHYVYmJET9Jp_tEUbO9epz27/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(24) -->
 <!-- ``` -->
 
-## [End-of-Course Evaluations: `r project_head("roffice")`](https://drive.google.com/file/d/1jjHex_OnxVpWjzjZpXquyyn0V84f9vzY/view?usp=sharing)
+### [End-of-Course Evaluations: `r project_head("roffice")`](https://drive.google.com/file/d/1jjHex_OnxVpWjzjZpXquyyn0V84f9vzY/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(2) -->
 <!-- ``` -->
 
 
-## [Training Materials: Data Visualization in R](https://drive.google.com/file/d/1f2vUg4ciLFmSGfj3TKnkKNyoa2iBu9lD/view?usp=sharing)
+### [Training Materials: Data Visualization in R](https://drive.google.com/file/d/1f2vUg4ciLFmSGfj3TKnkKNyoa2iBu9lD/view?usp=sharing)
 
 <!-- ```{r echo=FALSE, results='asis'} -->
 <!-- newpage(7) -->
 <!-- ``` -->
 
 
-# Appendix G – ESM Coursework and Matrix
+## Appendix G – ESM Coursework and Matrix
 
-## [Final Plan of Study](https://drive.google.com/file/d/1dQffaRe3ot5yjEVe46Wq2ZRP3SLkwX74/view?usp=sharing)
+### [Final Plan of Study](https://drive.google.com/file/d/1dQffaRe3ot5yjEVe46Wq2ZRP3SLkwX74/view?usp=sharing)
 
-## [ESM Program Matrix](https://drive.google.com/file/d/1b6dCK3ATfQ4Ns2Ng2ml4qCd9ENdzu3sz/view?usp=sharing)
+### [ESM Program Matrix](https://drive.google.com/file/d/1b6dCK3ATfQ4Ns2Ng2ml4qCd9ENdzu3sz/view?usp=sharing)
 
 
 <!-- ```{r echo=FALSE, results='asis'} -->
@@ -142,14 +142,14 @@
 
 
 
-# Appendix H – Scholarly Writing Sample
+## Appendix H – Scholarly Writing Sample
 
 :::{custom-style="citation"}
 **Schmidt, A.** (2020). Are international students getting a bang for their buck? The relationship between expenditures and international student graduation rates. *The Journal of International Students, 10*(3), 646-663. <https://doi.org/10.32674/jis.v10i3.1279>
 :::
 
-[Link to Sample in Appendix H on Google Drive](https://drive.google.com/file/d/1MiVkyzl4HsQpJBMsdIUJzrOYa8UuD4ma/view?usp=sharing)
+[Click here to access the PDF of my scholarly writing sample on Google Drive](https://drive.google.com/file/d/1MiVkyzl4HsQpJBMsdIUJzrOYa8UuD4ma/view?usp=sharing)
 
-# Appendix I – Brief Curriculum Vita (no more than 5 pages)
+## Appendix I – Brief Curriculum Vita (no more than 5 pages)
 
 [Link to Curriculum Vitae in Appendix I on Google Drive](https://drive.google.com/file/d/1Z5nrVg9D-nSeenIvl-8scrD_UoqDvBrT/view?usp=sharing)
